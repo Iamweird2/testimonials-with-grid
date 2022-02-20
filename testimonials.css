@@ -48,6 +48,7 @@
 }
 .kira{
     background-color: white;
+        overflow: auto;
     grid-row: 7/9;
 }
 @media (min-width: 800px) {
@@ -73,7 +74,6 @@
     .kira{
         grid-column: 4/5;
         grid-row: 1/span 2;
-        overflow: scroll;
     }
     .patrick{
         background-color: hsl(219, 29%, 14%);
